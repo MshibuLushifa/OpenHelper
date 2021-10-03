@@ -15,7 +15,7 @@ allprojects {
  
  ````
  dependencies {
- 	implementation 'com.github.MshibuLushifa:OpenHelper:Tag'
+ 	implementation 'com.github.MshibuLushifa:OpenHelper:1.0.0'
 }
  ````
  
