@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "OpenHelperLib"
 include ':app'
+include ':openhelperlibmain'
