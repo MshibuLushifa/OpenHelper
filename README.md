@@ -1,2 +1,20 @@
-# OpenHelper
- This is a library for native java android applications. It contains basic and must needed features of an application 
+# Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+````allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ ````
+ 
+ # Step 2. Add the dependency
+ 
+ ````
+ dependencies {
+	        implementation 'com.github.MshibuLushifa:OpenHelper:Tag'
+	}
+ ````
+ 
