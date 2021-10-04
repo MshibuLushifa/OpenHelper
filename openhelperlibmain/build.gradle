@@ -2,11 +2,6 @@ plugins {
     id 'com.android.library'
 }
 
-ext {
-    sourceCompatibility = sourceCompatibility
-    targetCompatibility = targetCompatibility
-}
-
 android {
     compileSdk 30
 
@@ -27,8 +22,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility sourceCompatibility
-        targetCompatibility targetCompatibility
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 }
 
